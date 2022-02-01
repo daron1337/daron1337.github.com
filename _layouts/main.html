@@ -1,102 +1,172 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-   "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{{ page.title }}</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--[if IE 6]>
+      <link href="default_ie6.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <script type="text/javascript">
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>{{ page.title }}</title>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!--[if IE 6]>
-<link href="default_ie6.css" rel="stylesheet" type="text/css" />
-<![endif]-->
-<script type="text/javascript">
- (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga("create", "UA-29782379-3", "daron1337.github.io");
+      ga("send", "pageview");
+    </script>
+  </head>
 
-         ga('create', 'UA-29782379-3', 'daron1337.github.io');
-           ga('send', 'pageview');
-</script>
-</head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <div id="logo">
+          <img src="media/banner.jpg" width="350px" height="130" alt="" />
+        </div>
+        <div id="menu">
+          <ul>
+            <li><a href="index.html" accesskey="1" title="">Homepage</a></li>
+            <li><a href="about.html" accesskey="2" title="">About me</a></li>
+            <li>
+              <a
+                href="https://github.com/daron1337"
+                accesskey="3"
+                title=""
+                target="_blank"
+                >Github</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/simone-manini-b0227265/?locale=en_US"
+                accesskey="4"
+                title=""
+                target="_blank"
+                >Linkedin</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="page">
+        <div id="content">{{ content }}</div>
+        <div id="sidebar">
+          <div id="tbox1">
+            <ul class="style2">
+              <li class="first">
+                <h3>Simone Manini</h3>
+                <p>
+                  IT Engineer, musician, poet, snowboarder and kitesurfer. Not
+                  necessarily in this order.
+                </p>
+              </li>
+              <p>
+                <img src="media/logo.jpg" width="150" height="150" alt="" />
+              </p>
+              <li>
+                <p>
+                  <a href="http://www.dvisionlab.com" target="_blank"
+                    >Co-Founder, COO & Software Engineer at D/Vision Lab Srl,
+                    Italy</a
+                  >
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="three-column">
+        <div id="tbox1">
+          <h2>Main projects</h2>
+          <ul class="style1">
+            <li>
+              <a href="http://www.dvisionlab.com/Larvitar/" target="_blank"
+                >DICOM Web 2D Library</a
+              >
+            </li>
+            <li>
+              <a href="http://www.dvisionlab.com/DigletTK/" target="_blank"
+                >DICOM Web 3D Library</a
+              >
+            </li>
+            <li>
+              <a href="http://www.vmtk.org/" target="_blank"
+                >vmtk [contributor]</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div id="tbox2">
+          <h2>Social</h2>
+          <ul class="style1">
+            <li class="first">
+              <a href="https://github.com/daron1337" target="_blank">Github</a>
+            </li>
+            <li>
+              <a
+                href="http://it.linkedin.com/pub/simone-manini/65/272/b02/"
+                target="_blank"
+                >Linkedin</a
+              >
+            </li>
+            <li>
+              <a href="https://twitter.com/daron1337" target="_blank"
+                >Twitter</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div id="tbox3">
+          <h2>Company</h2>
+          <ul class="style1">
+            <li class="first">
+              <a href="http://www.dvisionlab.com" target="_blank"
+                >D/Vision Lab</a
+              >
+            </li>
 
-<body>
-<div id="wrapper">
-	<div id="header">
-
-		<div id="logo">
-			<img src="media/banner.jpg" width="350px" height="130" alt="" />
-		</div>
-		<div id="menu">
-			<ul>
-				<li><a href="index.html" accesskey="1" title="">Homepage</a></li>
-				<li><a href="about.html" accesskey="2" title="">About me</a></li>
-				<li><a href="https://github.com/daron1337" accesskey="3" title="" target="_blank">Github</a></li>
-				<li><a href="https://twitter.com/daron1337" accesskey="4" title="" target="_blank">Twitter</a></li>
-			</ul>
-		</div>
-	</div>
-	<div id="page">
-		<div id="content">
-
-			{{ content }}
-
-		</div>
-		<div id="sidebar">
-
-			<div id="tbox1">
-				<ul class="style2">
-					<li class="first">
-						<h3>Simone Manini</h3>
-						<p>IT Engineer, musician, poet, snowboarder and kitesurfer. Not necessarily in this order.</p>
-					</li>
-					<p><img src="media/logo.jpg" width="150" height="150" alt="" /></p>
-					<li>
-						<p><a href="http://www.orobix.com" target="_blank">Project Manager & Software Engineer at Orobix Srl, Italy</a></p>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div id="three-column">
-		<div id="tbox1">
-			<h2>Main projects</h2>
-			<ul class="style1">
-        <li><a href="http://vmtklab.orobix.com" target="_blank">VMTKLab [main developer]</a></li>
-			  <li><a href="http://www.vmtk.org/" target="_blank">vmtk [contributor]</a></li>
-			  <li><a href="https://github.com/mrdoob/three.js" target="_blank">Three.js [contributor]</a></li>
-				<li><a href="https://github.com/archTk/pyNS" target="_blank">pyNS [main developer]</a></li>
-				<li><a href="https://pypi.python.org/pypi/jBessel" target="_blank">jBessel [main developer]</a></li>
-			</ul>
-		</div>
-		<div id="tbox2">
-			<h2>Social</h2>
-			<ul class="style1">
-				<li class="first"><a href="https://twitter.com/daron1337" target="_blank">Twitter</a></li>
-				<li><a href="https://facebook.com/daron1337" target="_blank">Facebook</a></li>
-				<li><a href="http://it.linkedin.com/pub/simone-manini/65/272/b02/" target="_blank">Linkedin</a></li>
-				<li><a href="https://soundcloud.com/soulsellers" target="_blank">Soundcloud</a></li>
-				<li><a href="https://plus.google.com/105981658709972956705" target="_blank">Google +</a></li>
-			</ul>
-		</div>
-		<div id="tbox3">
-			<h2>Interests</h2>
-			<ul class="style1">
-				<li class="first"><a href="http://www.toolband.com" target="_blank">Tool band</a></li>
-				<li><a href="http://www.soulsellers.com/" target="_blank">SoulSellerS</a></li>
-				<li><a href="http://themelvins.net/" target="_blank">Melvins</a></li>
-				<li><a href="http://www.pinkfloyd.com" target="_blank">Pink Floyd</a></li>
-				<li><a href="http://slashdot.org/" target="_blank">Slashdot</a></li>
-			</ul>
-		</div>
-	</div>
-	<div id="footer">
-		<p>Developed by daron1337. Think for yourself. Question Authority.</p>
-	</div>
-</div>
-</body>
+            <li>
+              <a
+                href="https://www.linkedin.com/company/29360028"
+                target="_blank"
+                >D/Vision Lab Linkedin</a
+              >
+            </li>
+            <li>
+              <a href="http://www.dicom.vision/" target="_blank"
+                >DICOM Vision</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="footer">
+        <p>Developed by daron1337. Think for yourself. Question Authority.</p>
+      </div>
+    </div>
+  </body>
 </html>
